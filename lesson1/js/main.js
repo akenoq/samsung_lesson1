@@ -15,7 +15,17 @@
             }
         }
     } );
+    
+    $('#two').css({'color':'white','font':'30px'})
+    
+    $(function() {
+    	
+    	$('#img1').draggable();
+    });
+
 } () );
+
+
 
 var startTime;
 var checkTime;

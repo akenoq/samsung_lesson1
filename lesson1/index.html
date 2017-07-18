@@ -13,10 +13,14 @@
     
     <link rel="stylesheet"  href="./lib/tau/mobile/theme/default/tau.css">
     
+    <link href="./lib/myjQ/jquery-ui.css" rel="stylesheet" type="text/css"/>
+	<script src="./lib/myjQ/jquery.min.js"></script>
+	<script src="./lib/myjQ/jquery-ui.min.js"></script>
+    
     <title>Tizen Web IDE - Tizen - Tizen basic Application</title>
 
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
-    <script src="js/main.js"></script>
+    
 </head>
 
 <body>
@@ -43,10 +47,18 @@
 	  </nav>
 	
 	  <article>
-	
+	  
+		  <div class="ui-widget ui-corner-all" id="img1">
+		        <img src="images/tizen_32.png" width="32"/>
+		  </div>
+		  
 	      <h1>
-	        <img src="images/tizen_32.png" width="32"/> Application Name
-	      </h1>
+	      
+	      <!-- Перетаскивание -->
+	        
+		    Application Name
+		  </h1>
+	      
 	    </header>
 	    <p style="font-size: 16px;">This is an empty template of Tizen Web Application. Tizen will support multiple device categories:</p>
 	    <ul style="font-size: 16px;">
@@ -61,7 +73,7 @@
 	      </div>
 	    </section>
 	  </article>
-	  <div id="footer" style="position: fixed"">
+	  <div id="footer" style="position: fixed">
     <p>&copy; 2012 Company Name. All rights reserved.</p>
   </div>
 	  </div><!-- /content -->
@@ -99,6 +111,7 @@
       
   
   	<script type="text/javascript" src="./lib/tau/mobile/js/tau.js"></script>
-  
+  	<script src="js/main.js"></script>
+  	
 </body>
 </html>
